@@ -1,0 +1,29 @@
+/* GENERAL */
+body {
+    background-color: #ecf0f1;
+}
+
+/* NAVBAR */
+.nav.navbar-nav {
+    float: right;
+}
+
+/* FOOTER */
+footer {
+    margin-top: 40px;
+    margin-bottom: -40px;
+    background-color: #242a31;
+    width: 100%;
+    position: relative;
+    color: #ecf0f1;
+}
+
+.panel-footer {
+    background-color: #ecf0f1;
+    color: #242a31;
+    height: 40px;
+}
+
+.copy {
+    text-align: right;
+}
