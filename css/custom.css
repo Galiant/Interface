@@ -1,24 +1,52 @@
 /* GENERAL */
 body {
-  background-color: #e1e7e3;
+  background-color: #ffffff;
   font-family: "Futura", sans-serif;
 }
 
 /* NAVBAR */
+.navbar {
+  background-color: #0f421c;
+  border: 0px solid #0f421c;
+}
+
+.navbar-default .navbar-brand {
+margin-top: -12px;
+}
+
 .nav.navbar-nav {
   float: right;
 }
 
-.navbar-default .navbar-brand {
+.navbar-default .navbar-nav>li>a {
+    color: #ffffff;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
   color: #0f421c;
-  font-size: 18px;
+  background-color: #ffffff;
+}
+
+.navbar-default .navbar-nav > .disabled > a,
+.navbar-default .navbar-nav > .disabled > a:hover,
+.navbar-default .navbar-nav > .disabled > a:focus {
+  color: #0f421c;
+  background-color: #ffffff;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #0f421c;
+    background-color: #ffffff;
 }
 
 /* FOOTER */
 footer {
   margin-top: 40px;
-  padding-top: 70px;
-  padding-bottom: 70px;
+  padding-top: 100px;
+  padding-bottom: 100px;
   background-color: #0f421c;
   width: 100%;
   position: relative;
