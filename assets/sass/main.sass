@@ -1,6 +1,6 @@
 /* GENERAL */
 
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,500,600,700')
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,600,700')
 
 @import 'bootstrap'
 
@@ -67,7 +67,8 @@ body
   h2
     color: $primary-text-color
     font-size: 24px
-    margin-bottom: 15px
+    margin-top: 30px
+    padding-bottom: 0
     text-transform: uppercase
     font-weight: 600
     text-align: center
@@ -76,7 +77,8 @@ body
     width: 30%
     background-color: $primary-color
     height: 2px
-    margin-bottom: 40px
+    margin-top: 15px
+    margin-bottom: 50px
 
   h3
     color: rgba($primary-text-color, .9)
@@ -125,9 +127,47 @@ body
 
 footer
   margin-top: 25px
-  height: 460px
-  padding: 50px, 25px
+  height: 380px
+  padding: 40px, 25px
   background-color: $primary-text-color
+
+  h3
+    color: rgba($primary-color-text, .6)
+    font-size: 18px
+    text-transform: uppercase
+    font-weight: 700
+    margin-bottom: 20px
+    text-align: center
+
+  p
+    color: $primary-color-text
+    font-size: 15px
+    letter-spacing: 1px
+    font-weight: 300
+
+    a
+      color: $primary-color-text
+
+      &:visited,
+        color: $primary-color-text
+
+      &:focus,
+      &:hover
+        color: $primary-color
+        text-decoration: none
+      
+      &:active
+        color: $primary-color-text
+
+  .info
+    padding: 70px 0
+
+    .info-child
+      text-align: center
+
+      .info-text
+        display: inline-block
+        text-align: left
 
 .panel-footer
   background-color: $primary-text-color
