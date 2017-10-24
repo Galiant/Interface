@@ -7577,4 +7577,90 @@ footer .info .info-child .info-text {
   font-size: 13px;
   padding-top: 15px;
   padding-bottom: 15px;
+  /* KONTAKT */
+}
+
+article.map {
+  padding-top: 150px;
+}
+
+.form-title h2 {
+  color: #212121;
+  font-size: 24px;
+  margin-top: 30px;
+  padding-bottom: 0;
+  text-transform: uppercase;
+  font-weight: 600;
+  text-align: center;
+}
+.form-title hr {
+  width: 40%;
+  background-color: #009688;
+  height: 2px;
+  margin-top: 15px;
+  margin-bottom: 50px;
+}
+
+.mail {
+  margin-bottom: 50px;
+}
+.mail .control-group {
+  margin-top: 14px;
+}
+.mail .control-group .form-control {
+  border-radius: 0px;
+  border: 2px solid rgba(0, 150, 136, 0.6);
+}
+.mail .control-group .form-control:focus {
+  border-color: #009688;
+  box-shadow: none;
+}
+.mail .btn {
+  background-color: #FFFFFF;
+  color: #009688;
+  border: 2px solid #009688 !important;
+  border-style: none;
+  font-size: 16px;
+  margin-top: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 0px;
+}
+.mail .btn:visited {
+  color: #FFFFFF;
+  background-color: #009688;
+  border: 2px solid #009688;
+}
+.mail .btn:focus {
+  color: #FFFFFF;
+  background-color: #009688;
+  border: 2px solid #009688;
+}
+.mail .btn:hover {
+  color: #FFFFFF;
+  background-color: #009688;
+  border: 2px solid #009688;
+}
+.mail .btn:active {
+  color: #FFFFFF;
+  background-color: #009688;
+  border: 2px solid #009688;
+}
+
+.kontakt {
+  margin-bottom: 40px;
+  letter-spacing: 1px;
+}
+.kontakt .fa-map-marker,
+.kontakt .fa-phone,
+.kontakt .fa-envelope-o {
+  color: #009688;
+}
+.kontakt .kontakt-title h4 {
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.kontakt .kontakt-info {
+  line-height: 1;
 }
