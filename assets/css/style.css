@@ -7526,6 +7526,7 @@ body {
   border: 2px solid #009688;
 }
 
+/* FOOTER */
 footer {
   margin-top: 25px;
   height: 380px;
@@ -7577,9 +7578,40 @@ footer .info .info-child .info-text {
   font-size: 13px;
   padding-top: 15px;
   padding-bottom: 15px;
-  /* KONTAKT */
 }
 
+/* O NAMA */
+.o-nama {
+  padding-top: 120px;
+}
+.o-nama .naslov {
+  margin-top: 25px;
+}
+.o-nama .naslov h2 {
+  color: #212121;
+  font-size: 24px;
+  margin-top: 30px;
+  padding-bottom: 0;
+  text-transform: uppercase;
+  font-weight: 600;
+  text-align: center;
+}
+.o-nama .naslov hr {
+  width: 40%;
+  background-color: #009688;
+  height: 2px;
+  margin-top: 15px;
+  margin-bottom: 50px;
+}
+.o-nama p {
+  line-height: 1.75;
+  font-size: 18px;
+}
+.o-nama .drugi {
+  margin-bottom: 40px;
+}
+
+/* KONTAKT */
 article.map {
   padding-top: 150px;
 }
