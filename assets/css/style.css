@@ -7496,7 +7496,8 @@ body {
   color: #009688;
 }
 
-.btn-detaljno {
+.btn-detaljno,
+.btn-link {
   color: #009688;
   background-color: #FFFFFF;
   margin: 25px 0;
@@ -7505,25 +7506,33 @@ body {
   border: 2px solid #009688;
   font-weight: 600;
 }
-.btn-detaljno:visited {
+.btn-detaljno:visited,
+.btn-link:visited {
   color: #FFFFFF;
   background-color: #009688;
   border: 2px solid #009688;
+  text-decoration: none;
 }
-.btn-detaljno:focus {
+.btn-detaljno:focus,
+.btn-link:focus {
   color: #FFFFFF;
   background-color: #009688;
   border: 2px solid #009688;
+  text-decoration: none;
 }
-.btn-detaljno:hover {
+.btn-detaljno:hover,
+.btn-link:hover {
   color: #FFFFFF;
   background-color: #009688;
   border: 2px solid #009688;
+  text-decoration: none;
 }
-.btn-detaljno:active {
+.btn-detaljno:active,
+.btn-link:active {
   color: #FFFFFF;
   background-color: #009688;
   border: 2px solid #009688;
+  text-decoration: none;
 }
 
 /* FOOTER */
@@ -7609,6 +7618,44 @@ footer .info .info-child .info-text {
 }
 .o-nama .drugi {
   margin-bottom: 40px;
+}
+
+/* USLUGE */
+.usluge {
+  padding-top: 120px;
+}
+.usluge .naslov {
+  margin-top: 25px;
+}
+.usluge h2 {
+  color: #212121;
+  font-size: 24px;
+  margin-top: 30px;
+  padding-bottom: 0;
+  text-transform: uppercase;
+  font-weight: 600;
+  text-align: center;
+}
+.usluge hr {
+  width: 45%;
+  background-color: #009688;
+  height: 2px;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+.usluge p,
+.usluge ul {
+  line-height: 1.75;
+  font-size: 18px;
+}
+.usluge .linkovi {
+  margin-top: 50px;
+}
+.usluge .linkovi .btn-link {
+  width: 90%;
+  padding: 30px 0;
+  font-size: 22px;
+  margin: 10px 0;
 }
 
 /* KONTAKT */
