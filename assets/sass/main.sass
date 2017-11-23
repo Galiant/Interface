@@ -62,6 +62,40 @@ body
   color: $primary-color
   background-color: $primary-color-text
 
+@media screen and (max-width: 767px)
+  .navbar-default .navbar-toggle
+    margin-top: .8em
+    border-color: $primary-color
+
+    .icon-bar
+        background-color: $primary-color
+
+    &:hover, &:focus, &:visited, &:active
+        background-color: $primary-color-text
+
+  .navbar-default .container
+    padding-bottom: 0
+
+  .navbar-brand
+    margin-left: 25px
+
+@media screen and (max-width: 500px)
+  .img-responsive
+    image-rendering: -moz-crisp-edges
+    image-rendering: -o-crisp-edges
+    image-rendering: -webkit-optimize-contrast
+    image-rendering: crisp-edges
+    -ms-interpolation-mode: nearest-neighbor
+  
+  .carousel-inner > .item > img,
+  .carousel,
+  .carousel-inner
+    height: 530px
+
+@media screen and (max-width: 370px)
+  .navbar-default .container .navbar-brand .logo-text
+    font-size: 32px
+
 /* MARKETING */
 .marketing 
   h2
@@ -183,6 +217,20 @@ footer
   padding-top: 15px
   padding-bottom: 15px
 
+@media screen and (max-width: 992px)
+  footer 
+    height: 600px
+  
+    .info
+      padding: 20px 0
+  
+  footer .info .info-child .info-text
+    text-align: center
+
+  .panel-footer
+    padding: 20px 0
+
+
 /* O NAMA */
 .o-nama
   padding-top: 120px
@@ -257,6 +305,7 @@ footer
 /* KONTAKT */
 article 
   margin-top: 100px
+  margin-bottom: 30px
 
 .form-title 
   h2
