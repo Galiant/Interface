@@ -7452,6 +7452,46 @@ body {
   background-color: #FFFFFF;
 }
 
+@media screen and (max-width: 767px) {
+  .navbar-default .navbar-toggle {
+    margin-top: 0.8em;
+    border-color: #009688;
+  }
+  .navbar-default .navbar-toggle .icon-bar {
+    background-color: #009688;
+  }
+  .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:visited, .navbar-default .navbar-toggle:active {
+    background-color: #FFFFFF;
+  }
+
+  .navbar-default .container {
+    padding-bottom: 0;
+  }
+
+  .navbar-brand {
+    margin-left: 25px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .img-responsive {
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -o-crisp-edges;
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: crisp-edges;
+    -ms-interpolation-mode: nearest-neighbor;
+  }
+
+  .carousel-inner > .item > img,
+  .carousel,
+  .carousel-inner {
+    height: 530px;
+  }
+}
+@media screen and (max-width: 370px) {
+  .navbar-default .container .navbar-brand .logo-text {
+    font-size: 32px;
+  }
+}
 /* MARKETING */
 .marketing h2 {
   color: #212121;
@@ -7580,6 +7620,22 @@ footer .info .info-child .info-text {
   padding-bottom: 15px;
 }
 
+@media screen and (max-width: 992px) {
+  footer {
+    height: 600px;
+  }
+  footer .info {
+    padding: 20px 0;
+  }
+
+  footer .info .info-child .info-text {
+    text-align: center;
+  }
+
+  .panel-footer {
+    padding: 20px 0;
+  }
+}
 /* O NAMA */
 .o-nama {
   padding-top: 120px;
@@ -7655,6 +7711,7 @@ footer .info .info-child .info-text {
 /* KONTAKT */
 article {
   margin-top: 100px;
+  margin-bottom: 30px;
 }
 
 .form-title h2 {
